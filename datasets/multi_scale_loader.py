@@ -78,6 +78,7 @@ class MultiScaleLIDCLoader:
             with open(path, 'rb') as f:
                 data = pickle.load(f)
             new_label = []
+            import pdb; pdb.set_trace()
             for j, lab in enumerate(self.labels):
                 cur_label = trans_label(lab, data[lab])
                 new_label += cur_label
