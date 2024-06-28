@@ -10,29 +10,32 @@ To generate multi-label classification dataset,
 
 3. Run the following script:  
 
-   `python genlidc_multilabel_data.py --data_dir ../LIDC_DATA `
+    `python genlidc_multilabel_data.py --data_dir ../LIDC_DATA `
    
 Set `--data_dir` as you want. 
 
-## For run the code, use
-`python main configs/test.json`
+## 
+For run the code, use the following script:
+
+    `python main configs/test.json`
 
 Please check the data path you have set when producing data. 
 
 ## Citation and contact
 For academic inference, please use the following citation
-<code>
-@article{yi2023multi,
-  title={Multi-label softmax networks for pulmonary nodule classification using unbalanced and dependent categories},
-  author={Yi, Le and Zhang, Lei and Xu, Xiuyuan and Guo, Jixiang},
-  journal={IEEE Transactions on Medical Imaging},
-  volume={42},
-  number={1},
-  pages={317--328},
-  year={2023},
-  publisher={IEEE}
-}
-</code>
+
+    <code>
+        @article{yi2023multi,
+            title={Multi-label softmax networks for pulmonary nodule classification using unbalanced and dependent categories},
+            author={Yi, Le and Zhang, Lei and Xu, Xiuyuan and Guo, Jixiang},
+            journal={IEEE Transactions on Medical Imaging},
+            volume={42},
+            number={1},
+            pages={317--328},
+            year={2023},
+            publisher={IEEE}
+        }
+    </code>
 
 Feel free to contact me via `odriewyile@gmail.com`.
 
