@@ -24,18 +24,16 @@ Please check the data path you have set when producing data.
 ## Citation and contact
 For academic inference, please use the following citation
 
-    <code>
-        @article{yi2023multi,
-            title={Multi-label softmax networks for pulmonary nodule classification using unbalanced and dependent categories},
-            author={Yi, Le and Zhang, Lei and Xu, Xiuyuan and Guo, Jixiang},
-            journal={IEEE Transactions on Medical Imaging},
-            volume={42},
-            number={1},
-            pages={317--328},
-            year={2023},
-            publisher={IEEE}
-        }
-    </code>
+    @article{yi2023multi,
+        title={Multi-label softmax networks for pulmonary nodule classification using unbalanced and dependent categories},
+        author={Yi, Le and Zhang, Lei and Xu, Xiuyuan and Guo, Jixiang},
+        journal={IEEE Transactions on Medical Imaging},
+        volume={42},
+        number={1},
+        pages={317--328},
+        year={2023},
+        publisher={IEEE}
+    }
 
 Feel free to contact me via `odriewyile@gmail.com`.
 
