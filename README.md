@@ -20,8 +20,9 @@ Set `--data_dir` as you want.
 Please check the data path you have set when producing data. 
 
 ## Citation and contact
-For inference, please cite as: 
-`@article{yi2023multi,
+For academic inference, please use the following citation
+<code>
+@article{yi2023multi,
   title={Multi-label softmax networks for pulmonary nodule classification using unbalanced and dependent categories},
   author={Yi, Le and Zhang, Lei and Xu, Xiuyuan and Guo, Jixiang},
   journal={IEEE Transactions on Medical Imaging},
@@ -30,7 +31,8 @@ For inference, please cite as:
   pages={317--328},
   year={2023},
   publisher={IEEE}
-}`
+}
+</code>
 
 Feel free to contact me via `odriewyile@gmail.com`.
 
