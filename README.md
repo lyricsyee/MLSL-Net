@@ -14,8 +14,8 @@ To generate multi-label classification dataset,
    
 Set `--data_dir` as you want. 
 
-## 
-For run the code, use the following script:
+## Run the code 
+Please use the following script to run our code: 
 
     python main configs/test.json
 
