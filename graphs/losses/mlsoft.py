@@ -12,6 +12,9 @@ class MultiLabelSoftmax(nn.Module):
         self.gamma_neg = gamma_neg
 
     def forward(self, outputs, targets):
+        '''
+        Code referred from "https://github.com/bojone/bert4keras". 
+        '''
         targets = targets.float()
         outputs = (1 - 2 * targets) * outputs
         y_pred_neg = outputs - targets * 1e15
@@ -25,7 +28,6 @@ class MultiLabelSoftmax(nn.Module):
 
         loss = torch.mean(neg_loss + pos_loss)
         return loss
-
 
 
 
