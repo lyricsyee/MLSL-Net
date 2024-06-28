@@ -17,7 +17,7 @@ Set `--data_dir` as you want.
 ## 
 For run the code, use the following script:
 
-    `python main configs/test.json`
+    python main configs/test.json
 
 Please check the data path you have set when producing data. 
 
